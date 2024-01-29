@@ -42,11 +42,9 @@ header .container nav a:hover {
 
 .filme-principal {
     font-size: 16px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),
-     url(/netflix/imgs/gp.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../imgs/gp.jpg");
     height: 400px;
     background-size: cover;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,6 +94,7 @@ header .container nav a:hover {
     width: 100%;
     display: block;
 }
-.carrosel-filmes{
- margin-top: 5px;
+
+.carrosel-filmes {
+    margin-top: 5px;
 }
